@@ -1,0 +1,77 @@
+﻿@model BlogSitesi.Models.Kullanici
+
+@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<form id="profilForm" method="post" enctype="multipart/form-data" action="/Admin/KullaniciGuncelle">
+    <div class="form-group mb-3">
+        <label for="kullaniciAd" class="form-label">Kullanıcı Adı</label>
+        <input type="text" id="kullaniciAd" name="kullaniciAd" class="form-control" value="@Model.kullaniciAd" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="yazarAdSoyad" class="form-label">Yazar Adı Soyadı</label>
+        <input type="text" id="yazarAdSoyad" name="yazarAdSoyad" class="form-control" value="@Model.yazarAdSoyad" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="yazarAciklama" class="form-label">Yazar Açıklaması</label>
+        <textarea id="yazarAciklama" name="yazarAciklama" class="form-control" required>@Model.yazarAciklama</textarea>
+    </div>
+    <div class="form-group mb-3">
+        <label for="yazarFotograf" class="form-label">Yazar Fotoğrafı</label>
+        <input type="file" id="yazarFotograf" name="yazarFotograf" class="form-control" />
+    </div>
+    <div class="form-group mb-3">
+        <label for="kullaniciSifre" class="form-label">Yeni Şifre</label>
+        <input type="password" id="kullaniciSifre" name="kullaniciSifre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </div>
+</form>
+
+@section Scripts{
+    <script>document.getElementById("profilForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+            fetch(this.action, {
+                method: "POST",
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(result => {
+                    if (result.success) {
+                        Swal.fire({
+                            title: "Güncelleme Başarılı!",
+                            text: result.message,
+                            icon: "success",
+                            confirmButtonText: "Tamam"
+                        }).then(() => {
+                            location.reload();
+                        });
+                    } else {
+                        Swal.fire({
+                            title: "Güncelleme Başarısız",
+                            text: result.message,
+                            icon: "error",
+                            confirmButtonText: "Tamam"
+                        });
+                    }
+                })
+                .catch(error => {
+                    Swal.fire({
+                        title: "Güncelleme Başarısız",
+                        text: error.message || "Profil güncellenirken bir hata oluştu.",
+                        icon: "error",
+                        confirmButtonText: "Tamam"
+                    });
+                });
+        });</script>
+}

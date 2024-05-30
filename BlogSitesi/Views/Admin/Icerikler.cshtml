@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BlogSitesi.Models.Yazi>
+@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-hover">
+    <thead>
+    <th scope="col">Başlık</th>
+    <th scope="col">Açıklama</th>
+    <th scope="col">Görsel</th>
+    <th scope="col">Yayın Durumu</th>
+    <th scope="col">Yayın Tarihi</th>
+    <th scope="col">Kategorisi</th>
+    <th scope="col">İşlemler</th>
+    </thead>
+    <tbody>
+        @foreach (var yazi in Model)
+        {
+            <tr>
+                <td>@yazi.icerikBaslik</td>
+                <td>@yazi.icerikAciklama</td>
+                <td>@(yazi.gorselYolu != null && yazi.gorselYolu.Length > 20 ? yazi.gorselYolu.Substring(0, 20) + "..." : yazi.gorselYolu)</td>
+                <td>
+                    @if (yazi.yayinDurumu == true)
+                    {
+                        <span class="text-success">Yayında</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Yayında Değil</span>
+                    }
+                </td>
+                <td>@yazi.yayinTarihi</td>
+                <td>@yazi.Kategori.kategoriAd</td> <!-- Kategori adını göstermek için Kategori nesnesini kullandım -->
+                <td>
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-danger m-3" asp-route-id="@yazi.icerikID" asp-action="IcerikSil">Sil</a>
+                        @if (yazi.yayinDurumu == true)
+                        {
+                            <a class="btn btn-danger m-3" asp-route-id="@yazi.icerikID" asp-action="IcerikYayinDurumu">Yayından Çıkar</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger m-3" asp-route-id="@yazi.icerikID" asp-action="IcerikYayinDurumu">Yayına Al</a>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

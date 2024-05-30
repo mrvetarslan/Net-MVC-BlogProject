@@ -1,0 +1,27 @@
+﻿
+<div class="page-title">
+    <div class="container">
+        <h2>@ViewBag.Yazilar.icerikBaslik</h2>
+        <ul class="nav">
+            <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+            <li>@ViewBag.Yazilar.icerikBaslik</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container pb-120">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="post-details-cover post-has-full-width-image">
+                <div class="post-thumb-cover text-center">
+                    <img src="@ViewBag.Yazilar.gorselYolu" alt="" class="img-fluid m-4" style="object-fit: cover; width: 500px; height: 300px;">
+                </div>
+                <div class="post-content-cover my-drop-cap">
+                    <p>
+                         @ViewBag.Yazilar.icerik
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

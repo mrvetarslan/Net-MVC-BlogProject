@@ -1,0 +1,45 @@
+﻿@model BlogSitesi.Models.Yazi
+
+@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Icerik" enctype="multipart/form-data" autocomplete="off">
+    <div class="form-group">
+        <label asp-for="icerikBaslik" class="control-label">İçerik Başlık</label>
+        <input asp-for="icerikBaslik" class="form-control" />
+        <span asp-validation-for="icerikBaslik" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="icerikAciklama" class="control-label"> İçerik Açıklama</label>
+        <textarea asp-for="icerikAciklama" class="form-control"></textarea>
+        <span asp-validation-for="icerikAciklama" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="icerik" class="control-label">İçerik</label>
+        <textarea asp-for="icerik" class="form-control"></textarea>
+        <span asp-validation-for="icerik" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="file">Dosya Seç:</label>
+        <input type="file" id="file" name="file" class="form-control-file" />
+    </div>
+    <div class="form-group">
+        <label asp-for="yayinTarihi" class="control-label">Yayın Tarihi</label>
+        <input asp-for="yayinTarihi" type="date" class="form-control" />
+        <span asp-validation-for="yayinTarihi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="category">Kategori:</label>
+        <select id="category" name="kategoriID" class="form-control">
+            <option value="">-- Kategori Seç --</option>
+            @foreach (var category in ViewBag.Kategoriler)
+            {
+                <option value="@category.kategoriID">@category.kategoriAd</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

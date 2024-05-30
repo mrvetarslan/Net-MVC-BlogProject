@@ -1,0 +1,125 @@
+﻿@model List<BlogSitesi.Models.Yazi>
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <!-- Banner -->
+    <div class="banner-slider-cover d-flex align-items-center">
+        <div class="container">
+            <div class="banner-slider owl-carousel">
+                <img src="/assets/images/setup.png" />
+            </div>
+
+            <!-- Banner Dots Slider -->
+        </div>
+        <!-- End of Banner Dots Slider -->
+    </div>
+    <!-- End of Banner -->
+
+    <div class="container pt-40 pb-90">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Son Paylaşılan Yazılar -->
+                <section class="popular-post pb-10">
+                    <!-- Section title -->
+                    <div class="section-title">
+                        <h2>Son Paylaşılan Yazılar</h2>
+                    </div>
+                    <!-- End of Section title -->
+
+                    <div class="post-blog-list">
+                        @foreach (var yazi in Model)
+                        {
+                            <!-- Post -->
+                            <div class="post-default post-has-right-thumb">
+                                <div class="d-flex flex-wrap">
+                                    <div class="post-thumb align-self-stretch order-md-2">
+                                        <a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@yazi.icerikID">
+                                            <div data-bg-img="@yazi.gorselYolu"></div>
+                                        </a>
+                                    </div>
+                                    <div class="post-data order-md-1">
+                                        <!-- Category -->
+                                        <div class="cats"><a asp-controller="Home" asp-action="IceriklerList" asp-route-kategoriID="@yazi.kategoriID">@yazi.Kategori.kategoriAd</a></div>
+                                        <!-- Title -->
+                                        <div class="title">
+                                            <h2><a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@yazi.icerikID">@yazi.icerikBaslik</a></h2>
+                                        </div>
+                                        <!-- Post Meta -->
+                                        <ul class="nav meta align-items-center">
+                                            @{
+                                                var formattedDate = yazi.yayinTarihi?.ToString("dd MMMM yyyy") ?? "Tarih Yok";
+                                            }
+                                            <a>@formattedDate</a>
+                                        </ul>
+                                        <!-- Post Desc -->
+                                        <div class="desc">
+                                            <p>
+                                                @yazi.icerikAciklama
+                                            </p>
+                                        </div>
+                                        <!-- Read More Button -->
+                                        <a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@yazi.icerikID" class="btn btn-primary">Daha Fazla</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Post -->
+                        }
+                    </div>
+                </section>
+                <!-- End of Popular Post  -->
+            </div>
+
+            <div class="col-lg-4">
+                <div class="pt-88">
+                    <div class="my-sidebar">
+                        <!-- Author Widget -->
+                        <div class="widget widget-about">
+                            <!-- Widget Content -->
+                            <div class="widget-content">
+                                <!-- Author Image -->
+                                <div class="author-image">
+                                    <img src="@ViewBag.Kullanici.yazarFotograf" alt="" class="img-fluid">
+                                </div>
+                                <!-- Author Name -->
+                                <div class="author-name text-center">
+                                    <a> @ViewBag.Kullanici.yazarAdSoyad </a>
+                                </div>
+                                <!-- Author Social Links -->
+                                <div class="author-social text-center">
+                                    <a href="https://www.instagram.com/marslann2/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    <a href="https://github.com/mrvetarslan" target="_blank"><i class="fa fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/m%C3%BCrvet-arslan-a10654305/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                                <!-- Author Text -->
+                                <div class="author-text text-center">
+                                    @ViewBag.Kullanici.yazarAciklama
+                                </div>
+                            </div>
+                            <!-- End of Widget Content -->
+                        </div>
+                        <!-- End of Author Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    int? id = Context.Session.GetInt32("id");
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Admin Anasayfa</title>
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- slick css -->
+    <link href="/assets/libs/slick-slider/slick/slick.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/libs/slick-slider/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+
+    <!-- jvectormap -->
+    <link href="/assets/libs/jqvmap/jqvmap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Css -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body style="background-color:#ffffff;">
+    <!-- Begin page -->
+    <div id="wrapper">
+        @if (id.HasValue)
+        {
+            <!-- Topbar Start -->
+            <div class="navbar-custom" style="background-color: #e37171;">
+                <div class="text-center mt-3 fs-3 text-black">
+                    <p>Mürvet'sBlog</p>
+                </div>
+                <div class="left-side-menu">
+                    <div class="h-100" data-simplebar>
+                        <!--- Sidemenu -->
+                        <div id="sidebar-menu">
+                            <ul id="side-menu">
+                                <li class="menu-title">Yönetim Paneli</li>
+                                <li>
+                                    <a asp-controller="Home" asp-action="Index" target="_blank">
+                                        <i class="mdi mdi-home-outline"></i>
+                                        <span> Siteye Git </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-action="Profil">
+                                        <i class="mdi mdi-account-circle-outline"></i>
+                                        <span> Profil </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-action="BlogKategori">
+                                        <i class="mdi mdi-newspaper-variant-outline"></i>
+                                        <span> Kategori İşlemleri </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-action="Icerik">
+                                        <i class="mdi mdi-post-outline"></i>
+                                        <span> Blog İçerik İşlemleri </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a asp-action="Icerikler">
+                                        <i class="mdi mdi-notification-clear-all"></i>
+                                        <span> Tüm İçerikler </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a asp-action="Login">
+                                        <i class="mdi mdi-logout"></i>
+                                        <span> Çıkış Yap </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Sidebar -->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- Sidebar -left -->
+                </div>
+                <!-- Left Sidebar End -->
+            </div>
+            <!-- end Topbar -->
+
+            <!-- ========== Left Sidebar Start ========== -->
+
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <div class="content">
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                @RenderBody()
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </div> <!-- container -->
+                </div> <!-- content -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+        }
+        else
+        {
+            <div>
+                <!-- Giriş yapmamış kullanıcılar için içerik -->
+                <h1>Lütfen giriş yapın</h1>
+                <a href="@Url.Action("Login", "Admin")">Giriş Yap</a>
+            </div>
+        }
+    </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false);
+</body>
+</html>

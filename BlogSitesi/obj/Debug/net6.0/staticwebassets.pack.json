@@ -1,0 +1,817 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/obj/Debug/net6.0/scopedcss/projectbundle/BlogSitesi.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlogSitesi.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/.DS_Store",
+      "PackagePath": "staticwebassets/assets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/app.min.css",
+      "PackagePath": "staticwebassets/assets/css/app.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/assets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/assets/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/icons.min.css",
+      "PackagePath": "staticwebassets/assets/css/icons.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/css/style.css",
+      "PackagePath": "staticwebassets/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/assets/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-bold.eot",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-bold.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-bold.svg",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-bold.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-bold.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-bold.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-bold.woff",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-bold.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-bold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-bold.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-light.eot",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-light.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-light.svg",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-light.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-light.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-light.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-light.woff",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-light.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-light.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-light.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-medium.eot",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-medium.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-medium.svg",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-medium.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-medium.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-medium.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-medium.woff",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-medium.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-medium.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-medium.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-regular.eot",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-regular.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-regular.svg",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-regular.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-regular.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-regular.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-regular.woff",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-regular.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-regular.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-regular.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-semibold.eot",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-semibold.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-semibold.svg",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-semibold.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-semibold.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-semibold.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-semibold.woff",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-semibold.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/cerebrisans-semibold.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/cerebrisans-semibold.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dripicons-v2.eot",
+      "PackagePath": "staticwebassets/assets/fonts/dripicons-v2.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dripicons-v2.svg",
+      "PackagePath": "staticwebassets/assets/fonts/dripicons-v2.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dripicons-v2.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/dripicons-v2.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dripicons-v2.woff",
+      "PackagePath": "staticwebassets/assets/fonts/dripicons-v2.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dropify.eot",
+      "PackagePath": "staticwebassets/assets/fonts/dropify.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dropify.svg",
+      "PackagePath": "staticwebassets/assets/fonts/dropify.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dropify.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/dropify.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/dropify.woff",
+      "PackagePath": "staticwebassets/assets/fonts/dropify.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/assets/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/assets/fonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/assets/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/assets/fonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/assets/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/assets/fonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/feather.eot",
+      "PackagePath": "staticwebassets/assets/fonts/feather.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/feather.svg",
+      "PackagePath": "staticwebassets/assets/fonts/feather.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/feather.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/feather.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/feather.woff",
+      "PackagePath": "staticwebassets/assets/fonts/feather.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/footable.eot",
+      "PackagePath": "staticwebassets/assets/fonts/footable.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/footable.svg",
+      "PackagePath": "staticwebassets/assets/fonts/footable.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/footable.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/footable.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/footable.woff",
+      "PackagePath": "staticwebassets/assets/fonts/footable.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/assets/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/assets/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets/assets/fonts/simple-Line-Icons.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets/assets/fonts/simple-Line-Icons.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets/assets/fonts/simple-Line-Icons.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/summernote.eot",
+      "PackagePath": "staticwebassets/assets/fonts/summernote.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/summernote.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/summernote.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/summernote.woff",
+      "PackagePath": "staticwebassets/assets/fonts/summernote.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/summernote.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/summernote.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/themify.eot",
+      "PackagePath": "staticwebassets/assets/fonts/themify.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/themify.svg",
+      "PackagePath": "staticwebassets/assets/fonts/themify.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/themify.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/themify.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/themify.woff",
+      "PackagePath": "staticwebassets/assets/fonts/themify.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets/assets/fonts/weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets/assets/fonts/weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets/assets/fonts/weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/fonts/weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/Android.png",
+      "PackagePath": "staticwebassets/assets/images/Android.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/icerik1.jpeg",
+      "PackagePath": "staticwebassets/assets/images/icerik1.jpeg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/logom.png",
+      "PackagePath": "staticwebassets/assets/images/logom.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/profil.jpg",
+      "PackagePath": "staticwebassets/assets/images/profil.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/images/setup.png",
+      "PackagePath": "staticwebassets/assets/images/setup.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/.DS_Store",
+      "PackagePath": "staticwebassets/assets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/app.min.js",
+      "PackagePath": "staticwebassets/assets/js/app.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/assets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/feather.min.js",
+      "PackagePath": "staticwebassets/assets/js/feather.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/jquery-1.12.1.min.js",
+      "PackagePath": "staticwebassets/assets/js/jquery-1.12.1.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/jquery.counterup.min.js",
+      "PackagePath": "staticwebassets/assets/js/jquery.counterup.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/jquery.min.js",
+      "PackagePath": "staticwebassets/assets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets/assets/js/jquery.waypoints.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/scripts.js",
+      "PackagePath": "staticwebassets/assets/js/scripts.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/simplebar.min.js",
+      "PackagePath": "staticwebassets/assets/js/simplebar.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/js/waves.min.js",
+      "PackagePath": "staticwebassets/assets/js/waves.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/plugins/animate.min.css",
+      "PackagePath": "staticwebassets/assets/plugins/animate.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/plugins/jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets/assets/plugins/jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/plugins/magnific-popup.css",
+      "PackagePath": "staticwebassets/assets/plugins/magnific-popup.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/plugins/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/assets/plugins/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/assets/plugins/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/assets/plugins/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/.DS_Store",
+      "PackagePath": "staticwebassets/uploads/.DS_Store"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/20240525_130738.jpg",
+      "PackagePath": "staticwebassets/uploads/20240525_130738.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/ASP.NET MVC.png",
+      "PackagePath": "staticwebassets/uploads/ASP.NET MVC.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Android Studio.png",
+      "PackagePath": "staticwebassets/uploads/Android Studio.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Deneme kaplumbağa.JPG",
+      "PackagePath": "staticwebassets/uploads/Deneme kaplumbağa.JPG"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Kendine Güven.jpg",
+      "PackagePath": "staticwebassets/uploads/Kendine Güven.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Matcha Latte.jpg",
+      "PackagePath": "staticwebassets/uploads/Matcha Latte.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Mocha.webp",
+      "PackagePath": "staticwebassets/uploads/Mocha.webp"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Motivasyon: Başarıya Giden Yolda İçsel Gücün Önemi.jpeg",
+      "PackagePath": "staticwebassets/uploads/Motivasyon: Başarıya Giden Yolda İçsel Gücün Önemi.jpeg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Swift.jpg",
+      "PackagePath": "staticwebassets/uploads/Swift.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Vanilyalı Fındık Latte.jpg",
+      "PackagePath": "staticwebassets/uploads/Vanilyalı Fındık Latte.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/Yazılımda Motivasyon.webp",
+      "PackagePath": "staticwebassets/uploads/Yazılımda Motivasyon.webp"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/a6e45983-f2a3-48e0-9c1a-3c4c59ce59a7.png",
+      "PackagePath": "staticwebassets/uploads/a6e45983-f2a3-48e0-9c1a-3c4c59ce59a7.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/amblem.png",
+      "PackagePath": "staticwebassets/uploads/amblem.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/deneme.png",
+      "PackagePath": "staticwebassets/uploads/deneme.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/github.jpg",
+      "PackagePath": "staticwebassets/uploads/github.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/gorsel.jpg",
+      "PackagePath": "staticwebassets/uploads/gorsel.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/gorsel1.jpg",
+      "PackagePath": "staticwebassets/uploads/gorsel1.jpg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/icerik.jpeg",
+      "PackagePath": "staticwebassets/uploads/icerik.jpeg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/logom.png",
+      "PackagePath": "staticwebassets/uploads/logom.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/profil.jpeg",
+      "PackagePath": "staticwebassets/uploads/profil.jpeg"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/sonun da sonu.png",
+      "PackagePath": "staticwebassets/uploads/sonun da sonu.png"
+    },
+    {
+      "Id": "/Users/murvetarslan/Desktop/Proje/BlogSitesi/BlogSitesi/wwwroot/uploads/wallpaper.png",
+      "PackagePath": "staticwebassets/uploads/wallpaper.png"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.BlogSitesi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.BlogSitesi.props",
+      "PackagePath": "build\\BlogSitesi.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.BlogSitesi.props",
+      "PackagePath": "buildMultiTargeting\\BlogSitesi.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.BlogSitesi.props",
+      "PackagePath": "buildTransitive\\BlogSitesi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

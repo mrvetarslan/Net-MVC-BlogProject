@@ -1,0 +1,50 @@
+﻿@model List<BlogSitesi.Models.Yazi>
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = ViewBag.kategoriAd;
+}
+
+<div class="page-title">
+    <div class="container">
+        <h2>@ViewBag.kategoriAd</h2>
+        <ul class="nav">
+            <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+            <li><a>@ViewBag.kategoriAd</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container pt-120 pb-90">
+
+    @foreach (var icerik in Model)
+    {
+
+        <div class="post-default post-has-right-thumb">
+            <div class="d-flex flex-wrap">
+                <div class="post-thumb align-self-stretch order-md-2">
+                    <a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@icerik.icerikID">
+                        <div data-bg-img="@icerik.gorselYolu"></div>
+                    </a>
+                </div>
+                <div class="post-data order-md-1">
+                    <div class="title">
+                        <h2>
+                            <a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@icerik.icerikID">@icerik.icerikBaslik</a>
+                        </h2>
+                    </div>
+                    <ul class="nav meta align-items-center">
+                        @{
+                            var formattedDate = icerik.yayinTarihi?.ToString("dd MMMM yyyy") ?? "Tarih Yok";
+                        }
+                        <a>@formattedDate</a>
+
+                    </ul>
+                    <div class="desc">
+                        <p>@icerik.icerikAciklama</p>
+                    </div>
+                    <a asp-controller="Home" asp-action="IcerikDetay" asp-route-icerikID="@icerik.icerikID" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

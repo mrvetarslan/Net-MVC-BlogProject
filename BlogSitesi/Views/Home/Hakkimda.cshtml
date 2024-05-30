@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <!-- Page title -->
+    <div class="page-title">
+        <div class="container">
+            <h2>Hakkımda</h2>
+            <ul class="nav">
+                <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                <li>Hakkımda</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of Page title -->
+
+    <div class="container pt-120 pb-90">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-thumb">
+                    <img src="/assets/images/blog/page-cover.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-10 offset-md-1">
+                    <div class="page-text">
+                        <div class="page-primary-text pb-60">
+                            <div class="page-para-title h2">Mürvet Arslan</div>
+                            <p>
+                                Merhaba! 23 yaşında bir Bilgisayar Mühendisliği öğrencisiyim. 2024 yılının son aylarında mezun olup artık tamamen mühendis olarak anılacağım. Samsun doğumluyum ve Samsun da yaşamaktayım. Üniversite hariç tüm eğitim hayatım boyunca Samsundaydım. 2019 yılında üniversite için Erzuruma gittim. Şuanda yazılım konusunda daha da geliştirerek iş hayatına atılmayı planlıyorum. Sizlere de burada yol alırken nasıl zorluklarla karşılaşabileceğiniz ve bu zorluklarlı nasıl aşabileceğiniz paylaşıyorum.
+                            </p>
+                        </div>
+
+                        <div class="page-primary-text pb-40">
+                            <div class="page-para-title h3">Hobilerim</div>
+                            <p>
+                                Her ne kadar yazılımla ilgilensem de çok farklı hobilerim var. Mesela çizim yapmayı çok seviyorum. Ama resim yapmak değil. Karikatür tarzında çizimler yapıyorum. En sevdiğim çizgi film olan Esrarengiz Kasaba karakterlerini çizmekten asla bıkmam ve gerçekten de yetenekli olduğumu görüyorum. Hobilerimden bir diğeri kitap okumak. Çok klasik gelebilir ama kendimi bildim bileli ve okumayı öğrendiğimden beri kitap okuyorum. Her türden kitap okumayı seviyorum.İçlerinden birini seçmek benim için çok zor gerçekten. Son olarak da spor yapmayı seviyorum. Yürüyüş,fitness,voleybol.Bunlar benim daha önce ilgilendiğim alanlar. Ama en önemlisi kendimi seviyorum ve bu sayede her şeyi aşkla ve mutlulukla yapıyorum.
+                            </p>
+                        </div>
+
+                        <br />
+                        <br />
+                        <br />
+
+                        <div class="biz-contact-form">
+                            <!-- Contact Form Title -->
+                            <div class="title text-center">
+                                <h2>Benimle İletişime Geçin</h2>
+                                <p>
+                                    Fikirleriniz,önerileriniz veya benimle paylaşmak istediğiniz şeyler için mail atabilirsiniz.Bu sayade iletişim halinde kalabiliriz.Kolaylıklar dilerimm.
+                                </p>
+                            </div>
+                            <!-- End of Contact Form Title -->
+                            <div class="my-contact-form-cover">
+                                <form class="my-contact-form" action="sendmail.php" method="post" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-6 text-center">
+                                            <p>Mail: murvet.arslan01@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="form-response"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>

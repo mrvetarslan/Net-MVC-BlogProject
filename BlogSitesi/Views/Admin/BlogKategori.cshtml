@@ -1,0 +1,72 @@
+﻿@model IEnumerable<BlogSitesi.Models.Kategori>
+@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="m-2">
+    <button type="button" onclick="$('#kategoriModal').modal()" class="btn btn-primary">Kategori Ekle</button>
+</div>
+<table class="table table-hover">
+    <thead>
+        <th scope="col">Kategori Ad</th>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+         {
+            <tr>
+                <td>@item.kategoriAd</td>
+                <td>
+                    <a class="btn btn-danger" asp-route-id="@item.kategoriID" asp-action="KategoriSil">Sil</a>
+                    <button class="btn btn-secondary" onclick="updateForm(@item.kategoriID)" type="button">Güncelle</button>
+                </td>
+
+            </tr>
+         }
+    </tbody>
+</table>
+<div class="modal" id="kategoriModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Kategori:</h5>
+                
+            </div>
+            <form method="post" action="/Admin/KategoriEkle" autocomplete="off"> <!--autocomplete="off" = Önceki eklediklerim öneri olarak gözükmesin-->
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" name="kategoriID"  id="kategoriID" class="form-control" />
+                        <input type="text" name="kategoriAd" id="kategoriAd" class="form-control" placeholder="Kategori Adı"/>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="clearForm()" data-dismiss="modal">Kapat</button>
+                    <button type="submit" id="saveBtn" class="btn btn-primary">Ekle</button>
+                    <button type="submit" id="updateBtn" class="btn btn-primary">Güncelle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(() => clearForm()) //Sayfa her  açıldığında başlangıçta çağırılmasını sağlar 
+        function updateForm(kategoriID) {
+            fetch('/Admin/KategoriDuzenle?kategoriID=' +kategoriID)
+            .then(res => res.json())
+            .then(res => {
+                $('#kategoriID').val(res.kategoriID)
+                $('#kategoriAd').val(res.kategoriAd)
+            })
+            $('#saveBtn'). hide();
+            $('#updateBtn').show();
+            $('#kategoriModal').modal('show');
+        }
+        function clearForm() {
+            $('#kategoriID').val(null)
+            $('#kategoriAd').val(null)
+            $('#saveBtn').show();
+            $('#updateBtn').hide();
+        }
+    </script>
+}
+

@@ -1,0 +1,131 @@
+﻿@model List<BlogSitesi.Models.Yazi>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogSitesi</title>
+    <!--==== Google Fonts ====-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500%7CSpectral:400,400i,500,600,700" rel="stylesheet">
+    <!-- CSS Files -->
+    <!--==== Bootstrap css file ====-->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!--==== Font-Awesome css file ====-->
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
+    <!--==== Animate CSS ====-->
+    <link rel="stylesheet" href="/assets/plugins/animate.min.css">
+
+    <!--==== Owl Carousel ====-->
+    <link rel="stylesheet" href="/assets/plugins/owl.carousel.min.css">
+
+    <!--==== Magnific Popup ====-->
+    <link rel="stylesheet" href="/assets/plugins/magnific-popup.css">
+
+    <!--==== Style css file ====-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preload-img">
+            <div class="spinnerBounce">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Preloader -->
+    <!-- Header -->
+    <!-- Header -->
+    <!-- Header -->
+    <header class="header">
+        <div class="header-fixed">
+            <div class="container-fluid pl-120 pr-120 position-relative">
+                <div class="row d-flex align-items-center">
+                    <!-- Logo -->
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="logo">
+                            <a><img src="/assets/images/logom.png" /></a>
+                        </div>
+                    </div>
+                    <!-- Nav Menu -->
+                    <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
+                        <div class="nav-menu-cover">
+                            <ul class="nav nav-menu">
+                                <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                                <li><a asp-controller="Home" asp-action="Hakkimda">Hakkımda</a></li>
+                                @if (ViewBag.Kategoriler != null)
+                                {
+                                    foreach (var kategori in ViewBag.Kategoriler)
+                                    {
+                                        <li><a asp-controller="Home" asp-action="IceriklerList" asp-route-kategoriId="@kategori.kategoriID">@kategori.kategoriAd</a></li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <!-- End of Header -->
+    <!-- Diğer Sayfaların İçeriği-->
+    @RenderBody()
+
+    
+    <!-- Footer -->
+    <footer class="footer-container d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center footer">
+                <div class="col-md-4 text-center text-md-left order-md-1 order-2">
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/marslann2/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://github.com/mrvetarslan" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/m%C3%BCrvet-arslan-a10654305/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center order-md-2 order-1">
+                    <a asp-controller="Home" asp-action="Index"><img src="/assets/images/logom.png" alt="" onclick="return false;" class="img-fluid"></a>
+                </div>
+                <div class="col-md-4 order-md-3 order-3">
+                    <div class="footer-cradit text-center text-md-right">
+                        <p>© 2024 MürvetArslan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- Back to Top Button -->
+    <div class="back-to-top d-flex align-items-center justify-content-center">
+        <span><i class="fa fa-long-arrow-up"></i></span>
+    </div>
+
+    <!-- JS Files -->
+    <!-- ==== JQuery 1.12.1 js file ==== -->
+    <script src="/assets/js/jquery-1.12.1.min.js"></script>
+
+    <!-- ==== Bootstrap js file ==== -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ==== Owl Carousel ==== -->
+    <script src="/assets/plugins/owl.carousel.min.js"></script>
+
+    <!-- ==== Magnific Popup ==== -->
+    <script src="/assets/plugins/jquery.magnific-popup.min.js"></script>
+
+    <!-- ==== Script js file ==== -->
+    <script src="/assets/js/scripts.js"></script>
+
+</body>
+</html>
+
